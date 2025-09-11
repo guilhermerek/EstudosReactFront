@@ -1,0 +1,13 @@
+.logo {
+  max-width: 2.5em;
+  max-height: 2.5em;
+  width: auto;
+  height: auto;
+  margin-right: 0.62em;
+}
+
+.app-logo {
+  display: flex;
+  font-size: 1em;
+  align-items: center;
+}
