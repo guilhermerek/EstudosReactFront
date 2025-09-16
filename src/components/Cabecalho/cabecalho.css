@@ -1,0 +1,17 @@
+.app-header {
+  background-color: #fff;
+  display: flex;
+  max-height: 60px;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-nav {
+  display: flex;
+  justify-content: end;
+  margin-left: 55em;
+}
+
+li {
+  list-style: none;
+}

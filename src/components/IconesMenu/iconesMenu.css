@@ -1,0 +1,24 @@
+.icones {
+  display: flex;
+}
+
+.icone-menu {
+  max-width: 1.6em;
+  max-height: 1.6em;
+  width: auto;
+  height: auto;
+}
+
+.icone-li {
+  display: flex;
+  margin-right: 0.6em;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+}
+.icone-li:hover {
+  filter: brightness(0.8);
+}
+.icone-li:active {
+  filter: brightness(0.6);
+}

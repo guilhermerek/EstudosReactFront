@@ -1,0 +1,12 @@
+.menu {
+  display: flex;
+}
+
+.item-menu {
+  display: flex;
+  font-size: 0.8em;
+  justify-content: center;
+  align-items: center;
+  min-width: 80px;
+  cursor: pointer;
+}
