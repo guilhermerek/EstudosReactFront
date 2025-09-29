@@ -12,3 +12,17 @@
 h3 {
   font-weight: normal;
 }
+
+img {
+  width: 150px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px #000000;
+}
+
+.InfoLivro {
+  font-size: 1em;
+  color: white;
+  text-align: center;
+}
