@@ -1,0 +1,30 @@
+section {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  background-color: white;
+}
+
+img {
+  width: 10%;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px #000000;
+}
+
+.InfoLivro {
+  font-size: 1em;
+  color: white;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+  justify-content: center;
+}
+
+p {
+  font-size: 1em;
+  color: black;
+}
