@@ -1,6 +1,8 @@
 import { Titulo } from '../Titulo/index.js';
 import livrosAler from './books.js';
+import CardInfos from '../CardInfos/index.js';
 import './LivrosParaLer.css';
+import bookImg from '../../images/book.png';
 
 function LivrosParaLer() {
   return (
@@ -16,6 +18,10 @@ function LivrosParaLer() {
           <img src={livro.src} alt={livro.title} />
         </div>
       ))}
+      <CardInfos>
+        title="O Senhor dos Anéis" anoPublicacao="2000" editora="HarperCollins
+        Brasil" src={bookImg}
+      </CardInfos>
     </section>
   );
 }
